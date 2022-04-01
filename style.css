@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+body{
+  background-color: rgb(243, 224, 227);
+   font-family: 'Lora', serif;
+   font-size: 16px;
+   font-weight: normal;
+   margin-bottom: 400px;
+
+}
+/* как пользоваться цветовой палитрой ргба */
+.avatarka{
+  width:300px;
+  border-radius: 33px;
+  box-shadow: 4px 4px 14px;
+  margin-bottom: 30px; 
+  margin: 20px 350px;
+}
+
+.container{
+ max-width: 1000px;
+ margin: auto;
+
+}
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-wight: 700px) {
+ .info {
+   display: block;
+ }
+  
+}
+
+a {
+  color:rgb(133, 23, 118);
+  text-decoration: none;
+ 
+}
+a:hover{
+ text-decoration: underline;
+ 
+}
+a:active{
+  color:rgb(65, 45, 180)
+}
+.card {
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.bg-green{
+  background-color: rgb(169, 238, 169);
+  box-shadow: 4px 4px 14px rgb(88, 161, 88);
+}
+
+.bg-red{
+  background-color: rgb(238, 169, 169);
+  box-shadow: 4px 4px 14px rgb(165, 117, 117);
+}
+
+.bg-blue{
+  background-color: rgb(169, 187, 238);
+  box-shadow: 4px 4px 14px rgb(128, 144, 185);
+}
+h1{
+ 
+  text-align: center;
+}
+
+td {
+  border: 2px rgb(170, 136, 136) solid;
+  
+}
+tr {
+  color:rgb(18, 40, 68);
+  
+
+}
+label {
+color:rgb(109, 109, 100);
+}
+input{
+  color:rgb(104, 167, 112)
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  outline: none;
+  color:rgb(108, 108, 204);
+  font-family: inherit;
+  border-bottom: 1px solid rgb(105, 170, 103);
+  padding: 15px 0 10px;
+
+}
+.row{
+ display: flex;
+ margin-bottom: 20px;
+}
+.row > .form-group{
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row .form-group:last-child{
+  margin-right: 0px;
+}
+
+.btn:hover{
+opacity: 0.9;
+}
+
+.btn{
+  background-color: rgb(106, 53, 136);
+  padding: 15px 15px;
+  color:rgb(165, 165, 228);
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.position{
+  position: relative;
+
+}
+
+.box{
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  width: 160px;
+  height: 160px;
+  background: rgb(3, 255, 137);
+  border-radius: 40px;
+  padding: 20px;
+  text-align: center;
+  font-family: inherit;
+  opacity: 60%;
+
+}
+
+.regul {
+  margin: 20px 20px 0 1300px;
+  border: 2px solid rgb(157, 236, 236);;
+  background-color: rgb(157, 236, 236);
+  border-radius: 8px;
+ 
+}
